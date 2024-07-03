@@ -9,7 +9,7 @@ function Hero({nameHero}) {
         <div className="d-flex flex-column align-items-center text-light p-5">
           <h1 className="">{nameHero}</h1>
           <Breadcrumb className=" fs-5 fw-semibold ">
-            <Link  className=" text-decoration-none link-opacity-50-hover link-light" to={'/'}>Home </Link>
+            <Link  className=" text-decoration-none link-opacity-50-hover link-light" to='/'>Home </Link>
             <Breadcrumb.Item className="text-light text-decoration-none" active> &nbsp; / &nbsp;{nameHero}</Breadcrumb.Item>
           </Breadcrumb>
         </div>
