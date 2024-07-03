@@ -1,6 +1,5 @@
 import { Breadcrumb } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import Home from "../pages/Home";
 
 function Hero({nameHero}) {
   return (
